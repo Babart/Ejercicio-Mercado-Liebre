@@ -1,0 +1,39 @@
+
+header {
+    background-color: #eac926;
+}
+
+.porcentaje {
+    color: #39b54a
+    
+}
+
+.titulares {
+    font-size: 24px;
+    font-family:'Roboto', sans-serif;
+}
+
+#Ofertas {
+    font-size: 24px;
+    font-family:'Roboto', sans-serif;
+}
+
+.descripcion {
+    font-size: 16px;
+    font-family:'Roboto', sans-serif;
+}
+
+h1 {
+    font-family:'Roboto', sans-serif;
+}
+ h3 {
+    font-family:'Roboto', sans-serif;
+ }
+
+ p {
+    font-family:'Roboto', sans-serif;
+ }
+
+ li {
+     list-style-type: none;
+ }
