@@ -3,6 +3,15 @@ header {
     background-color: #eac926;
 }
 
+footer{
+    color: #666;
+}
+
+body{
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+}
+
 .porcentaje {
     color: #39b54a
     
@@ -28,10 +37,12 @@ h1 {
 }
  h3 {
     font-family:'Roboto', sans-serif;
+    text-align: center;
  }
 
  p {
     font-family:'Roboto', sans-serif;
+    font-size: 12px;
  }
 
  li {
@@ -42,3 +53,30 @@ h1 {
      background-color: blue;
      border-radius: 85px;
  }
+
+ .negrita {
+     font-weight: bold;
+ }
+
+ #basado {
+    font-size: 24px;
+}
+
+#ofertas {
+   font-size: 24px;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos{
+    font-size: 16px;
+    color: #39b54a;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+ 
