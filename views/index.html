@@ -3,95 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercado Liebre</title>
+    <title id="Titulo">Mercado Liebre</title>
+    <link rel="stylesheet" href="/css/ejercicio_css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+    <img id="Mercado" src="/images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
+    <input class="form-control" type="text" placeholder="Buscar productos, marcas" aria-label="Search">
+    <i class="fas fa-search"></i>
 
-        <!-- se modifica el src de img ya que al hacer static('public'), no hace falta darle el camino completo -->
+   <h2 align = center class="titulos"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</h2>
 
-    <img src="/images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre">
-    <h1>Lugar para poner barra de búsqueda</h1>
-
-    <h2>Comprá en cuotas y sin tarjeta de crédito</h2>
-
-    <ul>
+    <ul class="Listas">
         <li><a href="#Ofertas">Ofertas</a></li>
         <li>Tiendas Oficiales</li>
         <li>Vender</li>
         <li>Ayuda</li>
     </ul>
-    <ul>
-        <li>Crea tu cuentas</li>
-        <li>Ingresa</li>
-        <li>Mis compras</li>
-    </ul>
+    <ul class="Listas">
+        <li><a href="/register">Crea tu cuenta</a><i class="far fa-address-card"></i></li>
+        <li><a href="/login">Ingresa</a><i class="fas fa-sign-in-alt"></i></li>
+        <li>Mis compras <i class="fas fa-shopping-basket"></i></li></li>
+    </ul>  
+    
+</header>
+      <section>
+           
+      <!-- se modifica el src de img ya que al hacer static('public'), no hace falta darle el camino completo -->
+
     
     <img height="100px" src="/images/img-home-banner.jpg" alt="banner">
 
-   <h3>Basado en tu última visita</h3>
-
-   <img height="200px" src="/images/img-cafetera-moulinex.jpg" alt="mansa licuadora">
-
-   <p>Precio $6700</p>
-   <p>40% OFF</p>
-
-   <p>Cafetera Moulinex</p> 
-   
-   <img height="200px" src="/images/img-macbook-pro-2019.jpg" alt="McPro">
-
-   <p>Precio $150970</p>
-   <p>10% OFF</p>
-   <p>MacBook PRO 2019</p>
-
-   <img height="200px" src="/images/img-samsung-galaxy-s10.jpg" alt="Terrible celular">
-
-   <p>Precio $89410</p>
-   <p>20% OFF</p>
-   <p>Teléfono Móvil Samsung Galaxy S10</p> 
-
-   <img src="/images/img-tv-samsung-smart.jpg" alt="ALta Pantalla Loco">
-   
-   <p>Precio $54230</p>
-   <p>Smart TV Samsung 43 Pulgadas</p>
-
-   <h3 id="Ofertas" align='center'>Ofertas</h3>
-   
-   <img height="200px" src="/images/img-cafetera-moulinex.jpg" alt="mansa licuadora">
-
-   <p>Precio $6700</p>
-   <p>40% OFF</p>
-
-   <p>Cafetera Moulinex</p> 
-   
-   <img height="200px" src="/images/img-macbook-pro-2019.jpg" alt="McPro">
-
-   <p>Precio $150970</p>
-   <p>10% OFF</p>
-   <p>MacBook PRO 2019</p>
-
-   <img height="200px" src="/images/img-samsung-galaxy-s10.jpg" alt="Terrible celular">
-
-   <p>Precio $89410</p>
-   <p>20% OFF</p>
-   <p>Teléfono Móvil Samsung Galaxy S10</p> 
-
-   <img src="/images/img-tv-samsung-smart.jpg" alt="ALta Pantalla Loco">
-   
-   <p>Precio $54230</p>
-   <p>Smart TV Samsung 43 Pulgadas</p>
-
-   <h3>Paga con Tarjeta o Efectivo</h3>
-
-   <p align = 'justify'>Con Mercado Liebre Cash tenés cuotas sin interés con tarjeta o efectivo en puntos de pago y ¡Siempre es Seguro!</p>
-
-   <h3>Envíos gratis desde $1990</h3>
-   <p align = 'justify'>Sólo por estar registrado en Mercado Liebre tenés envíos gratis  en miles de productos. Es un beneficio de Mercado Puntos</p>
-
-   <h3>Seguridad de Principio a fin</h3>
-    <p align = 'justify'>¿No te gusta? DEVOLVELO!!! en Mercado Liebre  no hay nada  que no pueda ser porque estas siempre Protegido</p>
+    <h3 class="titulares">Basado en tu última visita</h3><br>
  
-    <h6>Copyright  © Mercado Liebre 1999-2019 SRL</h6>
+    <i class="fas fa-truck" style="color: #39b54a"></i>
+    <img height="200px" src="/images/img-cafetera-moulinex.jpg" alt="mansa licuadora">
+   
+    <p class="descripcion">Precio $6700</p>
+    <p class="porcentaje descripcion">40% OFF</p>
+ 
+    <p class="descripcion">Cafetera Moulinex</p> 
+ 
+    <i class="fas fa-truck" style="color: #39b54a"></i>
+    <img height="200px" src="/images/img-macbook-pro-2019.jpg" alt="McPro">
+   
+ 
+    <p class="descripcion">Precio $150970</p>
+    <p class="porcentaje descripcion">10% OFF</p>
+    <p class="descripcion">MacBook PRO 2019</p>
+ 
+    <i class="fas fa-truck" style="color: #39b54a"></i>
+ 
+    <img height="200px" src="/images/img-samsung-galaxy-s10.jpg" alt="Terrible celular">
+   
+    <p class="descripcion">Precio $89410</p>
+    <p class="porcentaje descripcion">20% OFF</p>
+    <p class="descripcion">Teléfono Móvil Samsung Galaxy S10</p> 
+ 
+    <i class="fas fa-truck" style="color: #39b54a"></i>
+    <img height="200px" src="/images/img-tv-samsung-smart.jpg" alt="ALta Pantalla Loco">
     
+    <p>Precio $54230</p>
+    <p>Smart TV Samsung 43 Pulgadas</p>
+ 
+    <h3 id="Ofertas" align='center'>Ofertas</h3>
+ 
+    <i class="fas fa-truck" style="color: #39b54a"></i>
+    <img height="200px" src="/images/img-cafetera-moulinex.jpg" alt="mansa licuadora">
+   
+    <p class="descripcion">Precio $6700</p>
+    <p class="porcentaje descripcion">40% OFF</p>
+ 
+    <p>Cafetera Moulinex</p> 
+ 
+    <i class="fas fa-truck" style="color: #39b54a"></i>
+    <img height="200px" src="/images/img-macbook-pro-2019.jpg" alt="McPro">
+    
+    <p class="descripcion">Precio $150970</p>
+    <p class="porcentaje descripcion">10% OFF</p>
+    <p class="descripcion">MacBook PRO 2019</p>
+    <i class="fas fa-truck" style="color: #39b54a"></i>
+    <img height="200px" src="/images/img-samsung-galaxy-s10.jpg" alt="Terrible celular">
+    
+    <p class="descripcion">Precio $89410</p>
+    <p class="porcentaje descripcion">20% OFF</p>
+    <p class="descripcion">Teléfono Móvil Samsung Galaxy S10</p> 
+    <i class="fas fa-truck" style="color: #39b54a"></i>
+    <img height="200px" src="/images/img-tv-samsung-smart.jpg" alt="ALta Pantalla Loco">
+    
+    <p class="descripcion">Precio $54230</p>
+    <p class="descripcion">Smart TV Samsung 43 Pulgadas</p>
+
+    </section>  
+    
+    
+    <footer>
+
+        <i class="fas fa-credit-card" style="color: #1259c3"></i>
+        <h3>Paga con Tarjeta o Efectivo</h3>
+
+         <p align = 'justify'>Con Mercado Liebre Cash tenés cuotas sin interés con tarjeta o efectivo en puntos de pago y ¡Siempre es Seguro!</p>
+
+        <i class="fas fa-gift" style= "color: #1259c3"></i>
+        <h3>Envíos gratis desde $1990</h3>
+        <p align = 'justify'>Sólo por estar registrado en Mercado Liebre tenés envíos gratis  en miles de productos. Es un beneficio de Mercado Puntos</p>
+        
+        <i class="fas fa-user-shield" style="color:#1259c3"></i>
+        <h3>Seguridad de Principio a fin</h3>
+            <p align = 'justify'>¿No te gusta? DEVOLVELO!!! en Mercado Liebre  no hay nada  que no pueda ser porque estas siempre Protegido</p>
+        
+            <h6>Copyright  © Mercado Liebre 1999-2019 SRL</h6>
+    </footer>   
     
 </body>
 </html>

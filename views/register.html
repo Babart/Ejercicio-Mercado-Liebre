@@ -26,14 +26,71 @@
             <li><a href="/login">Ingresa</a><i class="fas fa-sign-in-alt"></i></li>
             <li>Mis compras <i class="fas fa-shopping-basket"></i></li></li>
         </ul>  
-        
+    
     </header>
-    <section>
-        <img height="100px" src="/images/img-home-banner.jpg" alt="banner">
         
+    <main>
+        <img height="75x" src="/images/img-home-banner.jpg" alt="Banner">
 
-        
-    </section>
+        <form action="" method="POST">
+             <p><input type="text" name="fullName" id="fullName" placeholder="Nombre y Apellido">
+            
+            </p>
+
+            <p><input type="text" name="userName" id="userName" placeholder="Nombre de Usuario">
+            
+            </p>
+
+            <p>
+                <input type="email" name="email" id="email" placeholder="E-mail">
+            </p>
+
+            <p>
+                <label for="Fecha de Nacimiento">Fecha de Nacimiento</label><br>
+                <input type="date" name="birthDate" id="birthDate">
+            </p>
+
+            <p><input type="text" name="Domicilio" id="Domicilio" placeholder="Domicilio">
+            
+            </p>
+
+            <p>
+                <label for="perfilUsuario" class="negrita">Perfil Usuario</label><br>
+                <label><input type="radio" name="Comprador" value="Comprador" id="Comprador">Comprador</label></p>
+                <label><input type="radio" name="Vendedor" value="Vendedor" id="Vendedor">Vendedor</label></p>
+            </p>
+
+            <p>
+                <label for="Intereses" class="negrita">Intereses</label><br>
+                <p><label><input type="checkbox" name="Intereses" value="Electro" id="Electro">Electro</label></p>
+                <p><label><input type="checkbox" name="Intereses" value="Moda" id="Moda">Moda</label></p>
+                <p><label><input type="checkbox" name="Intereses" value="Hogar" id="Hogar">Moda</label></p>
+                <p><label><input type="checkbox" name="Intereses" value="jugueteria" id="jugueteria">Juguetería</label></p>
+                <p><label><input type="checkbox" name="Intereses" value="vidaSana" id="vidaSana">Vida Sana</label></p>
+
+
+            <p>
+                <label for="fotoUsuario" class="negrita">Elegí tu  foto de Usuario</label><br>
+                <input type="file" name="foto" id="foto"></input>   
+            </p>
+
+            <p>
+                <input type="password" name="password" id="password" placeholder="Contraseña"><br>
+                <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirma tu Contraseña">
+
+            </p>
+
+            <p>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+
+            </p>
+
+
+         </form>
+
+    </main>    
+    
     <footer>
 
         <i class="fas fa-credit-card" style="color: #1259c3"></i>
