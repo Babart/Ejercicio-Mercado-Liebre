@@ -3,8 +3,33 @@ header {
     background-color: #eac926;
 }
 
+.logoMeli {
+    width: 50%;   
+}
+
+.form-control {
+    width: 50%;
+}
+
+#menu {
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+#butoMenu {
+    background-color: #0044AA;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor:pointer;
+}
+
 footer{
     color: #666;
+    background-color: white;
 }
 
 body{
@@ -49,10 +74,41 @@ h1 {
      list-style-type: none;
  }
 
- button {
-     background-color: blue;
-     border-radius: 85px;
+ #botonMenuDesplegable {
+    background-color: #0044AA;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor:pointer;
  }
+
+ #botonMenuDesplegable:hover{
+     background-color:#0022AA;
+ }
+
+
+#botonSubmit {
+    background-color: #0044AA;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor:pointer;
+ }
+
+#username {
+    width: 100%;
+    padding: 0px 20px;
+
+}
+
+#password {
+    width: 100%;
+    padding: 0px 20px;
+}
 
  .negrita {
      font-weight: bold;
@@ -80,3 +136,16 @@ a{
     color: black;
 }
  
+.iconos {
+    padding: 4px;
+    border-radius: 20px;
+    border: solid thin;
+    color: #39b54a;
+}
+
+.homeBanner {
+    width: 100%;
+}
+.fas {
+    background-color: white;
+}
